@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Мистер Ливанец</title>
+
+   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   <!-- ! HEADER -->
+   <header>
+
+      <div class="nav container">
+
+      <a href="index.html" class="logo">Flash<span>Dreamer</span></a>
+
+      <a href="#" class="login">Войти</a>
+
+   </div>
+   </header>
+
+    <!-- ! POST CONTENT -->
+    <section class="post-header">
+       <div class="header-content post-container">
+
+         <a href="index.html" class="back-home">Вернуться на главную</a>
+         <h2 class="header-title">Мистер Ливанец</h2>
+         <img src="img/post-1.jpg" class="header-img" alt="">
+       </div>
+    </section>
+
+   
+
+    <!--! POST -->
+    <section class="post-content container">
+       <h3 class="sub-heading">Знакомство с ливанской кухней</h3>
+       <p class="post-text">Сегодня вкусил еще одну неизведанную кухню - ливанскую. Для неё характерны разнообразие вегетарианских блюд, использование приправ и таких продуктов как бобовые (боб обыкновенный, нут), свежие фрукты и овощи (баклажаны, помидоры, перцы), рыба и мясо(в основном баранина. Запахи в блюдах играют тут реально особую роль, не говоря уже про аппетитный красивый внешний вид. <br> Сдержанный восточный интерьер, с кожаными креслами и рыжими тонами. Ровно но со вкусом. <br><br> Салат Табули - мелконарубленная петрушка, помидоры, лук, вареная пшеница, мята в соусе из лимонного сока и оливкового масла. Взрыв свежести с ярким многослойным вкусом. Порадовало) <br><br> Фалафель - жареные биточки из нута, подаются с маринованными овощами и соусом Таратор. Сытное аромантное блюдо и особенно в тему пришелся соус. <br><br> Фатет хуммус - блюдо из нута, сухарей, кунжутной пасты и специй - теплая закуска с нежным сливочным привкусом и приятным ароматом. Вообще вкусы настолько многослойны, что даже затрудняюсь их описывать, но они внесли разнообразие и крайне полезны.</p>
+
+       <div class="owl-carousel">
+         <div><img src="img/slider-1.jpg" alt=""></div>
+         <div><img src="img/slider-2.jpg" alt=""> </div>
+         <div><img src="img/slider-3.jpg" alt=""> </div>
+         <div><img src="img/slider-4.jpg" alt=""> </div>
+       </div>
+    </section>
+
+    
+
+    <!-- ! SHARE POST -->
+    <div class="share post-container">
+       <span class="share-title">Поделиться</span>
+       <div class="social">
+         <a href=""><i class='bx bxl-vk'></i></a>
+         <a href=""><i class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+
+    <!-- ! FOOTER -->
+    <div class="footer container">
+       <p>&copy; FlashDreamer Все права защищены</p>
+       <div class="social">
+          <a href=""><i class='bx bxl-vk'></i></a>
+          <a href=""><i class='bx bxl-instagram'></i></a>
+       </div>
+    </div>
+
+
+
+
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <script src="main.js"></script>
+   <script>
+      $(document).ready(function(){
+   $(".owl-carousel").owlCarousel({
+      items: 2,
+      margin: 10,
+      loop: true,
+      autoplay:true,
+      smartSpeed:2500,
+      autoplayTimeout:2500,
+      responsive: {
+         0: {
+            items: 1
+         },
+         600: {
+            items: 2
+         },
+         1000: {
+            items: 2
+         },
+      }
+   });
+ });
+   </script>
+</body>
+</html>
