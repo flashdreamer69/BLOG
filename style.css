@@ -331,6 +331,7 @@ color: var(--bg-color);
 .recipe {
    margin: 2rem 0;
    border-bottom: 2px solid var(--text-color);
+   padding-left: 20px;
 }
 
 .recipe li {
